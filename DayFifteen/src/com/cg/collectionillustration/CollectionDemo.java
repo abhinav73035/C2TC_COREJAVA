@@ -8,7 +8,7 @@ public class CollectionDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
        Collection nums = new ArrayList();
-       nums.
+     
        System.out.println(nums.size());
       // nums.
        nums.add("Abhinav");
