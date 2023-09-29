@@ -24,7 +24,7 @@ public class MapDemo {
        // mobject.put("ram", "hello");
         System.out.println(mobject.get("ram"));
         System.out.println(mobject.getOrDefault(45,"City" ));
-        System.out.println(mobject.keySet());
+        System.out.println("keyset:"+mobject.keySet());
         System.out.println(mobject.values());
         System.out.println(mobject.replace(45, 34));
         System.out.println(mobject);
