@@ -14,4 +14,6 @@ public class WithoutLambdaExpression implements Darawable{
 
 	
 
+	
+
 }
