@@ -25,7 +25,7 @@ public abstract class SavingAcc extends BankAcc{
 	}
 
 	public void withdraw(float accBal) {
-		if((getAccBal()-MINBAL)>= accBal) {
+		if((getAccBal()- MINBAL)>= accBal) {
 			System.out.println(accBal+"will be Debited from your account: and remaining amount is:"+(getAccBal()-accBal));
 			setAccBal(getAccBal()-accBal);
 		}else {
